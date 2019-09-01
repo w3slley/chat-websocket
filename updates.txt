@@ -6,3 +6,12 @@ Started to learn about WebSockets to implement some features in personal project
 3)Allowed users to insert username 
 4)Implemented left and joined functionalities. When user leaves or enters a room it will be displayed.
 5)Added a basic "user is typing" functionality. I still have to improve it though.
+
+01/09/2019
+1)Added a div for online users. On it, the name of the users online are displayed. They are stored now inside an array in the server. Everytime a user logs in, his/her name is inserted inside this array and when they leave, their name are removed.
+2)Displayed number of users online. The only thing is that it will add one more even if the user didn't choose a username. That means if users are in the username page they will count as online...
+3)
+
+THINGS I NEED TO IMPLEMENT
+
+1)when a new user enters the room he/she cannot see the names of the online users who entered the room before. I have to fix that. (DONE)

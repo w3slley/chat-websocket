@@ -23,9 +23,29 @@ body{
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 94vh;
+  width: 80%;
+  height: 90vh;
   overflow-y: auto;
+}
+.container ul{
+  margin-bottom: 50px;
+}
+.online{
+  position: fixed;
+  right: 0;
+  top: 0
+  padding: 10px;
+  background-color: red;
+  width: 20%;
+  height: 90vh;
+  overflow: auto;
+  padding: 5px;
+}
+.online ul{
+  padding: 0;
+}
+.online ul li{
+  font-weight: bold;
 }
 .messages{
   position: relative;
